@@ -53,6 +53,7 @@ p.clear
 //cambiar freq
 ~ba = {SinOsc.ar(500 * ~be.ar, mul:0.1)};
 
+//oscilador con el que modulamos los parámetros de ~ba
 ~be = {SinOsc.ar(1).range(0, 1)};
 ~be = {SinOsc.ar(1)};
 
