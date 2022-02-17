@@ -4,7 +4,7 @@
 
 // modified by Fen Nicolás
 // https://github.com/fenshan
- 
+
 osc(40,0.2, () => a.fft[3] * 0.7 + 1)
   .modulateScale(osc(40,0,1).kaleid(8))
   .repeat(2,4)
