@@ -1,0 +1,17 @@
+speed = 1
+
+noise(10, 0.3)//.blend(gradient(1))
+  .out(o0)
+
+src(o0).modulate(noise(), 1)
+	.out(o1)
+
+// a.show()
+// a.setBins(6)
+
+// shape(4)
+//   .scale( () =>  a.fft[0] )
+//   .out(o2);
+
+
+render()
